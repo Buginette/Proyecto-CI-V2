@@ -13,5 +13,6 @@ Thumbs.db
 
 !secretos.txt
 !README.md
+!pull_request_template.md
 
 *.pdf

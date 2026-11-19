@@ -61,3 +61,39 @@ footer {
 section:hover {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
+
+/* menú de perfiles y chips de habilidades */
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.menu a {
+    font-weight: bold;
+    color: #1d4ed8;
+}
+
+.menu .pendiente {
+    color: #9ca3af;
+}
+
+.chips {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.chips li {
+    background: #101826;
+    color: #f9a27e;
+    padding: 4px 12px;
+    border-radius: 999px;
+}

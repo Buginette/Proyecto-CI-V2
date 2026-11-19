@@ -3,66 +3,75 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aprendiendo GIT</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
-        <h1>Aprendiendo Git DEV</h1>
-        <h2>Cristopher Larios</h2>
-        <p>Mi bitácora del curso de Git y GitHub · Unidad 3</p>
+        <h1>Aprendiendo Git</h1>
+        <h2>Perfiles del curso</h2>
+        <p>Curso de Git y GitHub · UNI · 2026</p>
     </header>
     <main>
         <section>
-            <h2>2.1 Instalación y configuración</h2>
-            <p>Instalé Git y configuré mi identidad.</p>
-            <code>git config --global user.name</code>
+            <h2>Docente</h2>
+            <ul class="menu">
+                <li><a href="estudiantes/cristopherlarios/">Cristopher Larios</a> · Docente · Full Stack</li>
+            </ul>
         </section>
         <section>
-            <h2>2.2 Mi primer repositorio</h2>
-            <p>Con git init creé la carpeta oculta .git.</p>
-            <p>Estados: untracked, modified, staged y
-                unmodified.</p>
-        </section>
-        <section>
-            <h2>2.3 Ciclo de vida</h2>
-            <ol>
-                <li>Editar el archivo</li>
-                <li>Revisar con git status</li>
-                <li>Preparar con git add</li>
-                <li>Guardar con git commit</li>
-            </ol>
-        </section>
-        <section>
-            <h2>2.4 Exclusión con .gitignore</h2>
-            <p>Ignoro secretos, registros y archivos temporales.</p>
-            <code>*.log</code>
-        </section>
-        <section>
-            <h2>3.1 Ramas</h2>
-            <p>Una rama me permite experimentar sin romper main.</p>
-            <code>git switch -c feature/nueva-idea</code>
-        </section>
-        <section>
-            <h2>3.2 Fusiones y conflictos</h2>
-            <p>Un conflicto aparece cuando dos ramas cambian la misma línea.</p>
-            <p>Linea para conflicto Master</p>
-            <code>git merge feature/seccion-3-2</code>
-        </section>
-        <section>
-            <h2>3.4 Historial y recuperación</h2>
-            <p>Con log, diff, revert, reset, reflog y stash nada se pierde.</p>
-            <code>git reflog</code>
-        </section>
-        <section>
-            <h2>4.1 Remotos y GitHub</h2>
-            <p>Mi repositorio vive en GitHub: origin apunta a mi cuenta y sincronizo con fetch, pull y push.</p>
-            <code>git remote -v</code>
+            <h2>Estudiantes</h2>
+            <!--
+                REGLA: cada alumno edita SOLO la línea <li> de SU slot.
+                No borres los comentarios, no muevas slots, no toques otros.
+            -->
+            <ul class="menu">
+                <!-- ===== SLOT 01 ===== -->
+                <li class="pendiente">Slot 01 · disponible</li>
+                <!-- ===== FIN SLOT 01 ===== -->
+
+                <!-- ===== SLOT 02 ===== -->
+                <li class="pendiente">Slot 02 · disponible</li>
+                <!-- ===== FIN SLOT 02 ===== -->
+
+                <!-- ===== SLOT 03 ===== -->
+                <li class="pendiente">Slot 03 · disponible</li>
+                <!-- ===== FIN SLOT 03 ===== -->
+
+                <!-- ===== SLOT 04 ===== -->
+                <li class="pendiente">Slot 04 · disponible</li>
+                <!-- ===== FIN SLOT 04 ===== -->
+
+                <!-- ===== SLOT 05 ===== -->
+                <li class="pendiente">Slot 05 · disponible</li>
+                <!-- ===== FIN SLOT 05 ===== -->
+
+                <!-- ===== SLOT 06 ===== -->
+                <li class="pendiente">Slot 06 · disponible</li>
+                <!-- ===== FIN SLOT 06 ===== -->
+
+                <!-- ===== SLOT 07 ===== -->
+                <li class="pendiente">Slot 07 · disponible</li>
+                <!-- ===== FIN SLOT 07 ===== -->
+
+                <!-- ===== SLOT 08 ===== -->
+                <li class="pendiente">Slot 08 · disponible</li>
+                <!-- ===== FIN SLOT 08 ===== -->
+
+                <!-- ===== SLOT 09 ===== -->
+                <li class="pendiente">Slot 09 · disponible</li>
+                <!-- ===== FIN SLOT 09 ===== -->
+
+                <!-- ===== SLOT 10 ===== -->
+                <li class="pendiente">Slot 10 · disponible</li>
+                <!-- ===== FIN SLOT 10 ===== -->
+            </ul>
         </section>
     </main>
     <footer>
-        <p>Hecho por Cristopher Larios y Amaru con Git</p>
+        <p>Cada perfil llegó aquí con fork → rama → commit → sync → pull request</p>
         <p>Curso de Git y GitHub · 2026</p>
     </footer>
 </body>

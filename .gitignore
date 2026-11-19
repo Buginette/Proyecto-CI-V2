@@ -16,3 +16,4 @@ Thumbs.db
 !pull_request_template.md
 
 *.pdf
+!GUIA-ESTUDIANTES.md
